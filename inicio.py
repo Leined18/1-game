@@ -14,8 +14,8 @@ VERDE = (0,255,0)
 AZUL = (0,0,255)
 
 # dimensiones de ventana
-ANCHO = 800
-ALTO = 600
+ANCHO = 1000
+ALTO = 800
 
 #FPS
 FPS = 60
