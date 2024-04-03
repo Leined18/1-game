@@ -15,7 +15,7 @@ AZUL = (0,0,255)
 
 # dimensiones de ventana
 ANCHO = 600
-ALTO = 800
+ALTO = 600
 
 #FPS
 FPS = 60
@@ -103,7 +103,6 @@ class player(pygame.sprite.Sprite):
 
         if self.rect.top < 0:
             self.rect.top = 0
-
 
 # clase de jugador2
 
