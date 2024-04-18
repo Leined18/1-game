@@ -1,11 +1,13 @@
 from typing import Any
 import pygame
+import os
 
+# Directorio de assets
+ASSETS_DIR = "assets"
 
-
-# DIMENTSIONES DE LA VENTANA 
-ANCHO = 800
-ALTO = 600
+# DIMENSIONES DE LA VENTANA 
+ANCHO = 1000
+ALTO = 800
 # COLORES A UTILIZAR 
 NEGRO = (0,0,0)
 BLANCO = (255,255,255)
@@ -20,14 +22,13 @@ class fire (pygame.sprite.Sprite):
         
        super().__init__()
 
-       self.image = pygame.image.load("disparo.png")
+       self.image = pygame.image.load(os.path.join(ASSETS_DIR, "disparo.png"))
        self.rect = self.image.get_rect()
        self.rect.bottom = y
        self.rect.centerx = x
 
     def update(self):
-        self.rect.y -=10
+        self.rect.y -= 10
 
         if self.rect.bottom < 0:
-            self.kill
-        
+            self.kill()
