@@ -1,4 +1,5 @@
 import pygame
+import math
 from enemy import enemy
 from enemy import enemy2
 from fire import fire
@@ -222,7 +223,8 @@ while ejecutando:
             player2.kill() 
             Muerte.play()
         
-    if not groups["players"]:
+    if player1.is_dead == True and player2.is_dead == True: # por ahora se cierra el juego al morir los dos jugadores
+        ejecutando = False
         break
 
     if colision_bala:
