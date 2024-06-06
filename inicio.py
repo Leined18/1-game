@@ -253,3 +253,5 @@ while ejecutando:
     groups["enemies"].draw(screen)
     groups["bullets"].draw(screen)
     pygame.display.flip()
+
+
