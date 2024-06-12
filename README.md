@@ -1,7 +1,7 @@
 # Taco Trouble
 # Requisitos
-- '' python ''
-- '' pip install pygame''
+    python
+    pip install pygame
 
 ## Controles
 ### Primer jugador:
