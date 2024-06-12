@@ -1,4 +1,8 @@
 # Taco Trouble
+# Requisitos
+- '' python ''
+- '' pip install pygame''
+
 ## Controles
 ### Primer jugador:
 - Moverse: LEFT, UP, RIGHT, DOWN (← ↑ → ↓)
