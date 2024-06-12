@@ -1,6 +1,6 @@
 # Taco Trouble
 # Requisitos
-    python
+- python
     pip install pygame
 
 ## Controles
