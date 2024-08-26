@@ -22,11 +22,15 @@ sudo apt install python3-pygame
 
 ## Linux
 
-```git clone git@github.com:Leined18/1-game.git && cd 1-game && python3 inicio.py```
+```
+git clone git@github.com:Leined18/1-game.git && cd 1-game && python3 inicio.py
+```
 
 ## Windows
 
-```git clone https://github.com/Leined18/1-game.git; cd 1-game; python inicio.py```
+```
+git clone https://github.com/Leined18/1-game.git; cd 1-game; python inicio.py
+```
 
 ## Controles
 
